@@ -1,0 +1,15 @@
+{
+  "name": "notifystats",
+  "version": "1.0.0",
+  "repository": "git@github.com:TwanLuttik/notifystats.git",
+  "author": "Twan Luttik <twanluttik@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "mobile.pods": "cd notifystats.mobile/ios/ && pod install",
+    "mobile.bundle": "cd notifystats.mobile && yarn start",
+    "api.start": "cd notifystats.api && yarn api",
+    "web.start": "cd notifystats.web && yarn serve",
+    "web.build": "cd notifystats.web && yarn build",
+    "prep": "cd notifystats.api && yarn && cd .. && cd notifystats.web && yarn && cd .."
+  }
+}

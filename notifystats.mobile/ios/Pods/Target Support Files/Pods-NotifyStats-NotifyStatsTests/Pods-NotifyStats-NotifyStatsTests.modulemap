@@ -1,0 +1,6 @@
+module Pods_NotifyStats_NotifyStatsTests {
+  umbrella header "Pods-NotifyStats-NotifyStatsTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
